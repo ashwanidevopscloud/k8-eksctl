@@ -8,10 +8,10 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-- name: expense
-  instanceTypes: m5.large
-  diseredCapacity: 3
-  spot: true
+  - name: expense
+    instanceTypes: m5.large
+    diseredCapacity: 3
+    spot: true
 
 
 # # `instanceTypes` defaults to [`m5.large`]
